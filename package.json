@@ -1,7 +1,7 @@
 {
   "name": "gigs-adapter-stackoverflow-jobs",
   "version": "0.2.0",
-  "description": "A gigs adapter for Stack Overflow's jobs feed",
+  "description": "A gigs adapter for Stack Overflow's job board",
   "keywords": [
     "gigs",
     "gigsadapter",

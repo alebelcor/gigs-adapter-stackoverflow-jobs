@@ -1,6 +1,6 @@
 # gigs-adapter-stackoverflow-jobs
 
-> A [gigs](https://github.com/alebelcor/gigs) adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
+> A [gigs](https://github.com/alebelcor/gigs) adapter for [Stack Overflow's job board](http://stackoverflow.com/jobs)
 
 [![npm version](https://img.shields.io/npm/v/gigs-adapter-stackoverflow-jobs.svg)](https://npmjs.org/package/gigs-adapter-stackoverflow-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-stackoverflow-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-stackoverflow-jobs)
