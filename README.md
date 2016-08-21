@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-stackoverflow-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-stackoverflow-jobs)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
