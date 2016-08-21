@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-stackoverflow-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-stackoverflow-jobs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-stackoverflow-jobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-stackoverflow-jobs)
 
 ## Install
 
