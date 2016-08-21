@@ -1,0 +1,48 @@
+{
+  "name": "gigs-adapter-stackoverflow-jobs",
+  "version": "0.0.0",
+  "description": "A gigs adapter for Stack Overflow's jobs feed",
+  "keywords": [
+    "gigs",
+    "gigsadapter",
+    "job",
+    "career",
+    "opening",
+    "position",
+    "aggregator",
+    "util",
+    "utility",
+    "fetch"
+  ],
+  "bugs": "https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "gigs": "^0.1.0",
+    "got": "^6.3.0",
+    "moment": "^2.14.1",
+    "xml2json": "^0.10.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
