@@ -1,7 +1,8 @@
 'use strict';
 
 const got = require('got');
-const toJson = require('xml2json').toJson;
+const pify = require('pify');
+const toJson = pify(require('xml2js').parseString);
 
 const getGotOptions = require('./lib/get-got-options');
 const getResponseBody = require('./lib/get-response-body');
@@ -15,7 +16,6 @@ module.exports = function gigsAdapterStackOverflowJobs(options) {
   return got.get(ADAPTER_ENDPOINT, getGotOptions())
     .then(getResponseBody)
     .then(toJson)
-    .then(JSON.parse)
     .then(getGigs)
     .catch(console.error);
 };
