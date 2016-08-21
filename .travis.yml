@@ -9,11 +9,3 @@ branches:
 sudo: false
 after_success:
   - npm run coveralls
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
