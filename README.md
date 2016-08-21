@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-stackoverflow-jobs.svg)](https://npmjs.org/package/gigs-adapter-stackoverflow-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-stackoverflow-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-stackoverflow-jobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-stackoverflow-jobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-stackoverflow-jobs)
 
