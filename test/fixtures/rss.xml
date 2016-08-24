@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+  <channel xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+    <title>title</title>
+    <link>http://example.org</link>
+    <description>description</description>
+    <item>
+      <guid>http://example.org</guid>
+      <link>http://example.org</link>
+      <a10:author>
+        <a10:name>author</a10:name>
+      </a10:author>
+      <title>title</title>
+      <description>description</description>
+      <pubDate>pubDate</pubDate>
+      <location>Richmond, UK</location>
+    </item>
+  </channel>
+</rss>

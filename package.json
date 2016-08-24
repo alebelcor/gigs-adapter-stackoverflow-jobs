@@ -35,15 +35,15 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "gigs": "^0.1.0",
+    "feedme": "^0.3.2",
+    "gigs": "^1.0.0",
     "got": "^6.3.0",
-    "moment": "^2.14.1",
-    "pify": "^2.3.0",
-    "xml2js": "^0.4.17"
+    "moment": "^2.14.1"
   },
   "devDependencies": {
     "ava": "^0.16.0",
     "coveralls": "^2.11.12",
+    "is-plain-obj": "^1.1.0",
     "nyc": "^8.1.0"
   },
   "engines": {
