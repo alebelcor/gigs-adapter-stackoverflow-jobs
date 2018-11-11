@@ -10,15 +10,16 @@ const getGigs = require('./lib/get-gigs');
 
 const ADAPTER_ENDPOINT = 'https://stackoverflow.com/jobs/feed';
 
-module.exports = function gigsAdapterStackOverflowJobs(options) {
+module.exports = async options => {
   options = defaultsDeep({}, options, {
     endpoint: ADAPTER_ENDPOINT,
     gotOptions: getGotOptions()
   });
 
-  return got.get(options.endpoint, options.gotOptions)
-    .then(getResponseBody)
-    .then(getJson)
-    .then(getGigs)
-    .catch(console.error);
+  try {
+    const response = await got.get(options.endpoint, options.gotOptions);
+    return getGigs(getJson(getResponseBody(response)));
+  } catch (error) {
+    console.error(error);
+  }
 };
